@@ -1,0 +1,43 @@
+{
+    "name": "akagibi/getdomain",
+    "description": "Twig filter to extract the domain name from a string.",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "filter",
+        "url",
+        "domain name",
+        "domain"
+    ],
+    "support": {
+        "docs": "https://github.com/akagibi/getdomain/blob/master/README.md",
+        "issues": "https://github.com/akagibi/getdomain/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Akagibi",
+            "homepage": "https://www.akagibi.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "akagibi\\getdomain\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Getdomain",
+        "handle": "getdomain",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/akagibi/getdomain/master/CHANGELOG.md",
+        "class": "akagibi\\getdomain\\Getdomain"
+    }
+}
