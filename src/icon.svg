@@ -1,1 +1,20 @@
-<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 491.99 491.99"><defs><style>.cls-1{fill:#303030;stroke:#303030;stroke-width:31.99px;}.cls-2,.cls-3{isolation:isolate;}.cls-3{font-size:105.26px;fill:#fff;font-family:Monaco;}</style></defs><title>icon</title><rect id="Rectangle_arrondi_1" data-name="Rectangle arrondi 1" class="cls-1" x="15.99" y="15.99" width="460" height="460" rx="20"/><g id="Url_Decode" data-name="Url Decode" class="cls-2"><text class="cls-3" transform="translate(150.14 225.87)">Url</text><text class="cls-3" transform="translate(55.39 352.18)">Decode</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="493" height="493" viewBox="3.5 3.5 493 493">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #303030;
+        stroke: #303030;
+        stroke-width: 31.99px;
+      }
+
+      .cls-2 {
+        font-size: 86px;
+        fill: #fff;
+        text-anchor: middle;
+        font-family: Monaco;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_arrondi_1" data-name="Rectangle arrondi 1" class="cls-1" x="20" y="20" width="460" height="460" rx="20" ry="20"/>
+  <text id="Get_Domain" data-name="Get Domain" class="cls-2" transform="translate(248.651 229.873) scale(1.224)"><tspan x="0">Get</tspan><tspan x="0" dy="103.2">Domain</tspan></text>
+</svg>
