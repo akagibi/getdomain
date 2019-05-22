@@ -22,12 +22,26 @@ To install the plugin, follow these instructions.
 
 ## Using Getdomain
 
+**Getdomain** filter can be used with 4 different parameters.
+
+- full
+- long
+- normal
+- short *default*
+
 Input:
 
-    {{ "https://www.mydomain.com/index.html" | getdomain }}
+    {% set url = "https://www.domain.com:1234/index.html?param" %}
+    {{ url | getdomain(full) }}
+    {{ url | getdomain(long) }}
+    {{ url | getdomain(normal) }}
+    {{ url | getdomain }}
 
 Output:
 
-    mydomain.com
+    https://www.domain.com:1234
+    https://www.domain.com
+    www.domain.com
+    domain.com
 
 Brought to you by [Akagibi](https://www.akagibi.com)
