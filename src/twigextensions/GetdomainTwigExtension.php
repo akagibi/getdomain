@@ -63,12 +63,14 @@ class GetdomainTwigExtension extends \Twig_Extension
         $host = parse_url($url, PHP_URL_HOST);
         $port = parse_url($url, PHP_URL_PORT);
         
+        if ($host === false) return $url;
+        
         if ($method == 'full') $url = $scheme . '://' . $host . ($port ? ':' . $port : '');
         else if ($method == 'long') $url = $scheme . '://' . $host;
         else if ($method == 'normal') $url = $host;
         else {
             $aUrl = array_reverse(explode(".", $host));
-            $url = $aUrl[1].".".$aUrl[0];
+            if (array_key_exists(1, $aUrl)) $url = $aUrl[1].".".$aUrl[0];
         }
 
         return $url;
