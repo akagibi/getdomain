@@ -2,7 +2,7 @@
     "name": "akagibi/getdomain",
     "description": "Twig filter to extract the domain name from a string.",
     "type": "craft-plugin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "keywords": [
         "craft",
         "cms",
